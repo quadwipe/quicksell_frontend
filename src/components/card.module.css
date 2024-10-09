@@ -1,0 +1,110 @@
+.tick {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    display: flex;
+    width: fit-content;
+}
+
+.tick span {
+    padding-right: 15px;
+}
+
+.p {
+    width: 150px;
+    text-align: left;
+}
+
+.no {
+    padding-left: 15px;
+    color: gray;
+    padding-right: 210px;
+}
+
+.pIcon {
+    padding-left: 40px;
+    float: right;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+.userCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin-left: 42px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    width: 280px;
+    height: 80px;
+    background-color: white;
+    
+}
+
+.usNo {
+    float: left;
+    color: gray;
+    font-weight: 500;
+}
+
+.matt {
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dicon {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.diicon {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+    background-color: white;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2px 8px;
+}
+
+.circle {
+    width: 6px;
+    height: 6px;
+    background-color: #858b97;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+
+.userCard:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.userCard h2 {
+    margin: 0 0 10px;
+}
+
+.userCard p {
+    margin: 5px 0;
+}
+
+.pragna {
+    display: flex;
+    flex-direction: column;
+}

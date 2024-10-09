@@ -1,0 +1,140 @@
+/* src/components/Navbar.css */
+.sh{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 40px;
+    position: relative;
+  }
+  
+  .navbarlogo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbarmenu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbarmenu .dropdown {
+    position: relative;
+  }
+  .subdrop{
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .subdrop select{
+    width: 100px;  
+    padding: 5px;
+    font-size: 14px;
+  }
+  .dropbtn {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .downicon{
+    margin-left: 2px;
+  }
+  .displayicon{
+    margin-right: 8px;
+  }
+  .dropdownsection {
+    display: flex;
+  }
+  
+  .dropdownlabel{
+    margin-left: -20px;
+    margin-top: 20px;
+    color: rgb(137, 137, 137);
+    font-weight: 400;
+  }
+  .dropdowncontent {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+    position: absolute;
+    background-color: #f5f9ff;
+    min-width: 300px;
+    min-height: 100px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    border-radius: 5px;
+    list-style: none;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+    border-radius: 3px;
+  }
+  .dropbtn.subdropdownbtn{
+    display: flex;
+  }
+  .side {
+    padding-left: 35px;
+  }
+  .dropdowncontent li {
+    position: relative;
+  }
+  
+  .dropdowncontent a,
+  .dropdowncontent .dropbtn {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    width: 40%;
+    border: none;
+    text-align: left;
+  }
+  .nested {
+    left: 48%;
+    top: 10%;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbarmenu {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbarmenu .dropdown {
+      width: 100%;
+    }
+  
+    .dropdowncontent {
+      position: relative;
+      width: 100%;
+    }
+  
+    .nested {
+      left: 0;
+      top: 0;
+    }
+  }
